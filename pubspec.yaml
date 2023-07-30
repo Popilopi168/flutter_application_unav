@@ -30,16 +30,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  path_provider: ^2.0.2
+  path_provider: ^2.0.15
   image_picker: ^0.8.4+5 # check for the latest version
+  camera: ^0.10.5+2
+  #flutter_image_compress: ^1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  path: ^1.8.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

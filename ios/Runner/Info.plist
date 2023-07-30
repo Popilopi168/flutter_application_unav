@@ -53,7 +53,7 @@
 	<string>App needs access to the photo library for selecting photos.</string>
 
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Can I use the mic please?</string>
+	<string>pp needs access to the mic.</string>
 
 </dict>
 </plist>
