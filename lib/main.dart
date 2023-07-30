@@ -111,6 +111,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
                   print('Connected to server.');
                   int fileLength = await imgTaken.length();
                   String fileLengthStr = fileLength.toString().padLeft(10, '0');
+                  serverSocket.write(1);
                   serverSocket.write(fileLengthStr);
                   await serverSocket.addStream(imgTaken.openRead());
                   print('Image sent to server.');
